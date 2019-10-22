@@ -1,5 +1,7 @@
 packrat/lib*/
 packrat/src/
-.Rproj.user
 
-*.Rhistory
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
