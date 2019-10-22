@@ -21,7 +21,10 @@ display_rwth_color()
 
 # query single or multiple colors
 rwth_color("blue")
-rwth_color(c("blue", "blue75", "blue50", "blue25", "blue10"))
+[1] "#00549F"
+
+rwth_color(c("green", "green75", "green50", "green25", "green10"))
+[1] "#57AB27" "#8DC060" "#B8D698" "#DDEBCE" "#F2F7EC"
 ```
 
 ## Color Palette
