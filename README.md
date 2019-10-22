@@ -11,3 +11,4 @@ devtools::install_github("christianholland/RWTHColorPalette")
 ```
 
 ## Usage
+<a href='https:/tidyverse.tidyverse.org'><img src='man/figures/rwth_color_palette.png' align="right" height="138.5" /></a>
