@@ -2,6 +2,7 @@
 
 ## Overview
 This package allows to query colors from [RWTH corporate design](http://www9.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaadpbhq) using R.
+The color palette contains 13 different colors, each in 5 different intensities (100%, 75%, 50%, 25% and 10%). 
 
 ## Installation
 ```r
@@ -11,7 +12,7 @@ devtools::install_github("christianholland/RWTHColorPalette")
 ```
 
 ## Usage
-The color palette contains 13 different colors, each in 5 different intensities (100%, 75%, 50%, 25% and 10%). Query colors by combining color name in lower case (check figure below for color names) and color intensity. For colors with 100% intensity the color name alone is sufficient.
+Query colors by combining color name in lower case (check figure below for color names) and color intensity. For colors with 100% intensity the color name alone is sufficient.
 ```r
 # load package
 library(RWTHColorPalette)
