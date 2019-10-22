@@ -10,11 +10,8 @@ This package provides R-code to query colors from [RWTH cooperate design](http:/
 devtools::install_github("christianholland/RWTHColorPalette")
 ```
 
-## Color Palette
-<a href='https:/tidyverse.tidyverse.org'><img src='man/figures/rwth_color_palette.png' align="center" height="500" /></a>
-
 ## Usage
-The color palette contains 13 different colors, each in 5 different intensities (100%, 75%, 50%, 25% and 10%). 
+The color palette contains 13 different colors, each in 5 different intensities (100%, 75%, 50%, 25% and 10%). Query colors by combining color name in lower case (check figure below for color names) and color intensity. For colors with 100% intensity the color name alone is sufficient.
 ```r
 # load package
 library(RWTHColorPalette)
@@ -26,3 +23,6 @@ display_rwth_color()
 rwth_color("blue")
 rwth_color(c("blue", "blue75", "blue50", "blue25", "blue10"))
 ```
+
+## Color Palette
+<a href='https:/tidyverse.tidyverse.org'><img src='man/figures/rwth_color_palette.png' align="center" height="500" /></a>
