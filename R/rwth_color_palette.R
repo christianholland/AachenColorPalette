@@ -12,10 +12,12 @@ display_rwth_colors = function() {
            intensity = factor(intensity, unique(intensity)),
            query = factor(query, query)) %>%
     ggplot(aes(x=color, y=intensity, color=query)) +
-    geom_point(size=8) +
+    geom_point(size=9) +
     scale_color_manual(values = rwth_colors_df$hex) +
     theme_minimal() +
-    theme(legend.position = "none") +
+    theme(legend.position = "none",
+          axis.text = element_text(size=12),
+          title = element_text(size=14)) +
     coord_flip() +
     labs(x = "", y="Intensity [%]") +
     ggtitle("RWTH color palette")
