@@ -1,7 +1,7 @@
 # RWTHColorPalette
 
 ## Overview
-This package provides R-code to query colors from [RWTH cooperate design](http://www9.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaadpbhq)
+This package provides R-code to query colors from [RWTH corporate design](http://www9.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaadpbhq)
 
 ## Installation
 ```r
