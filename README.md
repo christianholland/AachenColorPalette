@@ -25,4 +25,4 @@ rwth_color(c("blue", "blue75", "blue50", "blue25", "blue10"))
 ```
 
 ## Color Palette
-<a href='https:/tidyverse.tidyverse.org'><img src='man/figures/rwth_color_palette.png' align="center" height="500" /></a>
+<img src='man/figures/rwth_color_palette.png' align="center" height="500" />
