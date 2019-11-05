@@ -17,7 +17,7 @@ devtools::install_github("christianholland/AachenColorPalette")
 Query colors by combining color name in lower case (check figure below for color names) and color intensity. For colors with 100% intensity the color name alone is sufficient.
 ```r
 # load package
-library(RWTHColorPalette)
+library(AachenColorPalette)
 
 # show the color palette
 display_aachen_color()
