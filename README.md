@@ -1,13 +1,16 @@
-# RWTHColorPalette
+# AachenColorPalette
 
 ## Overview
-This package provides R-code to query colors from [RWTH cooperate design](http://www9.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaadpbhq)
+This package provides R-code to query colors inspired from [RWTH cooperate design](http://www9.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaadpbhq)
+
+## Disclaimer
+The color palette makes no claim to completeness or correctness of the offical RWTH corporate design.
 
 ## Installation
 ```r
 # install the development version from GitHub
 # install.packages("devtools")
-devtools::install_github("christianholland/RWTHColorPalette")
+devtools::install_github("christianholland/AachenColorPalette")
 ```
 
 ## Usage
@@ -17,15 +20,15 @@ The color palette contains 13 different colors, each in 5 different intensities 
 library(RWTHColorPalette)
 
 # show the color palette
-display_rwth_color()
+display_aachen_color()
 
 # query single or multiple colors
-rwth_color("blue")
+aachen_color("blue")
 [1] "#00549F"
 
-rwth_color(c("green", "green75", "green50", "green25", "green10"))
+aachen_color(c("green", "green75", "green50", "green25", "green10"))
 [1] "#57AB27" "#8DC060" "#B8D698" "#DDEBCE" "#F2F7EC"
 ```
 
 ## Color Palette
-<img src='man/figures/rwth_color_palette.png' align="center" height="500" />
+<img src='man/figures/aachen_color_palette.png' align="center" height="500" />
