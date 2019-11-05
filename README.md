@@ -4,7 +4,7 @@
 This package allows to query colors from a palette inspired from [RWTH corporate design](http://www9.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaadpbhq) using R. The color palette contains 13 different colors, each in 5 different intensities (100%, 75%, 50%, 25% and 10%; see figure below). 
 
 ## Disclaimer
-The color palette makes no claim to completeness or correctness of the offical RWTH corporate design.
+The color palette makes no claim to completeness or correctness of the official RWTH corporate design.
 
 ## Installation
 ```r
