@@ -32,3 +32,11 @@ aachen_color(c("green", "green75", "green50", "green25", "green10"))
 
 ## Color Palette
 <img src='man/figures/aachen_color_palette.png' align="center" height="500" />
+
+## Example
+```r
+ggplot(mtcars, aes(x = wt, y = mpg, color=factor(cyl))) +
+  geom_point() +
+  scale_color_manual(values = aachen_color(c("bordeaux", "green", "turquoise")))
+```
+<img src='man/figures/example_plot.png' align="center" height="500" />
