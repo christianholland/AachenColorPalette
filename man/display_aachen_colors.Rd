@@ -2,13 +2,13 @@
 % Please edit documentation in R/aachen_color_palette.R
 \name{display_aachen_colors}
 \alias{display_aachen_colors}
-\title{Creates a plot showing all avaiable colors of the RWTH palette}
+\title{Creates a plot showing all avaiable colors of the Aachen palette}
 \usage{
 display_aachen_colors()
 }
 \description{
-Creates a plot showing all avaiable colors of the RWTH palette
+Creates a plot showing all avaiable colors of the Aachen palette
 }
 \examples{
-display_rwth_colors()
+display_aachen_colors()
 }
