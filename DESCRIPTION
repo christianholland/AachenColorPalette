@@ -1,11 +1,12 @@
 Package: AachenColorPalette
 Type: Package
-Title: Palette of Aachen colors
-Version: 0.1.0
-Author: Christian Holland
-Maintainer: Christian Holland <cholland2408@gmail.com>
+Title: Palette of colors inspired by RWTH Aachen corporate design
+Version: 1.0.0
+Author: Christian H. Holland
+Maintainer: Christian H. Holland <cholland2408@gmail.com>
 Description: A color palette inspired by the corporate design of the RWTH Aachen.
-License: What license is it under?
+License: GPLv3
+URL: https://github.com/christianholland/AachenColorPalette
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
