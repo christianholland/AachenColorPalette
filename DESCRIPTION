@@ -2,18 +2,25 @@ Package: AachenColorPalette
 Type: Package
 Title: Palette of colors inspired by RWTH Aachen corporate design
 Version: 1.0.0
-Author: Christian H. Holland
-Maintainer: Christian H. Holland <cholland2408@gmail.com>
+Authors@R: 
+    person(given = "Christian H.",
+           family = "Holland",
+           role = c("aut", "cre"),
+           email = "cholland2408@gmail.com",
+           comment = c(ORCID = "0000-0002-3060-5786"))
 Description: A color palette inspired by the corporate design of the RWTH Aachen.
-License: GPLv3
+License: GPL-3 + file LICENSE
 URL: https://github.com/christianholland/AachenColorPalette
+BugReports: https://github.com/christianholland/AachenColorPalette/issues
+Depends: R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
 Imports: 
-    stringr,
     dplyr,
     tibble,
-    ggplot2
+    ggplot2,
+    magrittr,
+    stringr
 Suggests: 
     testthat
