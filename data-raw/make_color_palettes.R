@@ -1,9 +1,9 @@
 aachen_colors_df = read.csv("data-raw/aachen_colors.csv",
-                            stringsAsFactors = F, check.names = F) %>%
+                            stringsAsFactors = FALSE, check.names = FALSE) %>%
   mutate(query = case_when(intensity == 100 ~ color,
                            intensity != 100 ~ paste0(color, intensity)))
 
-use_data(aachen_colors_df, internal = T, overwrite = T)
+use_data(aachen_colors_df, internal = TRUE, overwrite = TRUE)
 
 # create figure for README
 palette = display_aachen_colors()
