@@ -13,9 +13,9 @@ test_that("aachen_color queries multiple colors", {
 
 test_that("aachen_color queries not existing colors", {
   expect_warning(aachen_color("cyan"),
-                 "The following queries are not available: cyan",
-                 aachen_color(c("cyan", "cyan50")),
-                 "The following queries are not available: cyan, cyan50",
-                 aachen_color(c("red", "cyan")),
+                 "The following queries are not available: cyan")
+  expect_warning(aachen_color(c("cyan", "cyan50")),
+                 "The following queries are not available: cyan, cyan50")
+  expect_warning(aachen_color(c("red", "cyan")),
                  "The following queries are not available: cyan")
 })
