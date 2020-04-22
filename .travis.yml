@@ -6,6 +6,8 @@ os:
   - linux
   - osx
 
+cache: packages
+
 r_packages:
   - covr
 
