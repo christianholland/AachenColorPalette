@@ -22,5 +22,5 @@ test_that("aachen_color queries not existing colors", {
 
 test_that("check palette plot", {
   p = display_aachen_colors()
-  expect_doppelganger("Aachen color palette", p)
+  vdiffr::expect_doppelganger("Aachen color palette", p)
 })
