@@ -19,3 +19,8 @@ test_that("aachen_color queries not existing colors", {
   expect_warning(aachen_color(c("red", "cyan")),
                  "The following queries are not available: cyan")
 })
+
+test_that("check palette plot", {
+  p = display_aachen_colors()
+  expect_doppelganger("Aachen color palette", p)
+})
