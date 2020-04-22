@@ -1,7 +1,7 @@
 Package: AachenColorPalette
 Type: Package
 Title: Palette of colors inspired by RWTH Aachen corporate design
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: 
     person(given = "Christian H.",
            family = "Holland",
@@ -23,5 +23,5 @@ Imports:
     magrittr,
     stringr
 Suggests: 
-    testthat,
+    testthat (>= 2.1.0),
     vdiffr
