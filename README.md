@@ -1,5 +1,7 @@
 # AachenColorPalette
 [![Build Status](https://travis-ci.com/christianholland/AachenColorPalette.svg?branch=master)](https://travis-ci.com/christianholland/AachenColorPalette)
+[![codecov](https://codecov.io/gh/christianholland/AachenColorPalette/branch/master/graph/badge.svg)](https://codecov.io/gh/christianholland/AachenColorPalette)
+![GitHub](https://img.shields.io/github/license/christianholland/AachenColorPalette)
 
 ## Overview
 This package allows to query colors from a palette inspired from [RWTH corporate design](http://www9.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaadpbhq) using R. The color palette contains 13 different colors, each in 5 different intensities (100%, 75%, 50%, 25% and 10%; see figure below). 
