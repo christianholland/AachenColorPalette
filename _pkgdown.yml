@@ -1,1 +1,9 @@
 destination: docs
+url: https://christianholland.github.io/AachenColorPalette
+navbar:
+  structure:
+    right: [twitter, github]
+  components:
+     twitter:
+       icon: "fab fa-twitter fa-lg"
+       href: https://twitter.com/mr_netherlands
