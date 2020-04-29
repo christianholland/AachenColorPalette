@@ -1,3 +1,7 @@
+# AachenColorPalette 1.1.1
+
+* Integration of `AppVeyor`
+
 # AachenColorPalette 1.1.0
 
 * Integration of `Travis CI`
