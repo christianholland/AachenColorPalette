@@ -7,3 +7,6 @@ navbar:
      twitter:
        icon: "fab fa-twitter fa-lg"
        href: https://twitter.com/mr_netherlands
+
+development:
+  mode: auto
