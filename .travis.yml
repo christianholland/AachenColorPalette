@@ -10,6 +10,11 @@ os:
 r:
   - release
   - devel
+  
+jobs:
+  exclude:
+    - r: devel
+      os: osx
 
 
 r_packages:
