@@ -39,8 +39,8 @@ aachen_color(c("green", "green75", "green50", "green25", "green10"))
 
 ## Example
 ```r
-library(ggplot2)
 library(AachenColorPalette)
+library(ggplot2)
 
 ggplot(mtcars, aes(x = wt, y = mpg, color=factor(cyl))) +
   geom_point() +
