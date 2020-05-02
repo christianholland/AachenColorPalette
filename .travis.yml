@@ -16,13 +16,11 @@ jobs:
     - r: devel
       os: osx
 
-
 r_packages:
   - covr
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
-
   - Rscript -e 'pkgdown::build_site()'
 
 deploy:
