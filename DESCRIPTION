@@ -10,7 +10,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-3060-5786"))
 Description: A color palette inspired by the corporate design of the RWTH Aachen.
 License: GPL-3 + file LICENSE
-URL: https://github.com/christianholland/AachenColorPalette
+URL: https://christianholland.github.io/AachenColorPalette/, https://github.com/christianholland/AachenColorPalette
 BugReports: https://github.com/christianholland/AachenColorPalette/issues
 Depends: R (>= 2.10)
 Encoding: UTF-8

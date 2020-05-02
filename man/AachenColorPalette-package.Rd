@@ -6,11 +6,16 @@
 \alias{AachenColorPalette-package}
 \title{AachenColorPalette: Palette of colors inspired by RWTH Aachen corporate design}
 \description{
+{
+\if{html}{\figure{aachen_color_palette.png}{options: align='right' alt='logo' width='120'}}
 A color palette inspired by the corporate design of the RWTH Aachen.
+
+}
 }
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://christianholland.github.io/AachenColorPalette/}
   \item \url{https://github.com/christianholland/AachenColorPalette}
   \item Report bugs at \url{https://github.com/christianholland/AachenColorPalette/issues}
 }
