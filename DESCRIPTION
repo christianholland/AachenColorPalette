@@ -1,7 +1,7 @@
 Package: AachenColorPalette
 Type: Package
 Title: Palette of colors inspired by RWTH Aachen corporate design
-Version: 1.1.2
+Version: 1.1.3
 Authors@R: 
     person(given = "Christian H.",
            family = "Holland",
@@ -15,7 +15,7 @@ BugReports: https://github.com/christianholland/AachenColorPalette/issues
 Depends: R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Imports: 
     dplyr,
     tibble,
