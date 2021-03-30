@@ -1,3 +1,8 @@
+# AachenColorPalette 1.1.3
+
+* Updated `aachen_color()`: Multiple colors can now be provided also via multiple arguments
+* Switched from Travis and AppVeyor to GitHub Actions
+
 # AachenColorPalette 1.1.1
 
 * Integration of `AppVeyor`
