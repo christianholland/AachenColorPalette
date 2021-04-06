@@ -27,8 +27,8 @@ official RWTH Aachen corporate design.
 
 ``` r
 # install the development version from GitHub
-# install.packages("devtools")
-devtools::install_github("christianholland/AachenColorPalette")
+# install.packages("remotes")
+remotes::install_github("christianholland/AachenColorPalette")
 ```
 
 ## Usage
@@ -64,7 +64,7 @@ library(AachenColorPalette)
 
 ggplot(mtcars, aes(x = wt, y = mpg, color=factor(cyl))) +
   geom_point() +
-  scale_color_manual(values = aachen_color(c("bordeaux", "green", "turquoise")))
+  scale_color_manual(values = aachen_color("bordeaux", "green", "turquoise"))
 ```
 
 <img src='man/figures/example_plot.png' align="center" height="500" />
